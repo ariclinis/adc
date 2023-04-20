@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <form method = "post" action="">
+        <div class="container">
+          <h1>Register User</h1>
+          <hr>
+      
+          <label for="userid"><b>User Id</b></label>
+          <input type="text" placeholder="Your User Id" name="userid" id="userid" required>
+
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="username"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="username" id="username" required>
+
+          
+          <label for="pwd"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="pwd" id="pwd"   minlength="8" required>
+      
+          <label for="pwd_confirmation"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="pwd_confirmation" id="pwd_confirmation"  minlength="8" required>
+
+          
+          <hr>
+            <h4>Informações Opcionais</h4>
+            <label for="profile"><b>Perfil</b></label>
+            <select name="profile" id="profile">
+                <option value="Private">Private</option>
+                <option value="Public">Public</option>
+            </select>
+            <br>
+            <br>
+            <label for="nif"><b>NIF</b></label>
+            <input type="text" placeholder="Enter NIF" name="nif" id="nif" value="" minlength="9" maxlength="9">
+            <label for="fix_number"><b>Fix Number</b></label>
+            <input type="text" placeholder="Enter Fix Number" name="fix_number" value="" id="fix_number" >
+            <label for="phone"><b>Phone Number</b></label>
+            <input type="text" placeholder="Enter Phone Number" name="phone" value="" id="phone" >
+            <label for="ocupation"><b>Ocupation</b></label>
+            <input type="text" placeholder="Enter Ocupation" name="ocupation" value="" id="ocupation" >
+            <label for="work_place"><b>Work Place</b></label>
+            <input type="text" placeholder="Enter Work Address" name="work_place" value="" id="work_place" >
+            <h4>Address Information</h4>
+            <label for="street"><b>Street</b></label>
+            <input type="text" placeholder="Enter Street" name="street" value="" id="street" >
+            <label for="postal_code"><b>Postal Code</b></label>
+            <input type="text" placeholder="Enter Postal Code" name="postal_code" value="" id="postal_code" >
+            <label for="location"><b>Location</b></label>
+            <input type="text" placeholder="Enter Location" name="location" value="" id="location" >
+          
+            <button id="save" class="registerbtn"
+              onclick="RegisterUser()">Register</button>
+        </div>
+      
+        <div class="container signin">
+          <p>Already have an account? <a href="/">Login</a>.</p>
+        </div>
+      </form>
+      <script src="./system.js" ></script>
+
+</body>
+</html>

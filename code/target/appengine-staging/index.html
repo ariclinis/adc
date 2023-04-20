@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <script src="./app.js" ></script>
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <title>My First Web Aoo</title>
+  </head>
+
+  <body>
+    <form method = "post" action="">
+      <div class="container">
+        <h1>Login</h1>
+        <hr>
+    
+        <label for="userid"><b>User Id</b></label>
+        <input type="text" placeholder="Your User Id" name="userid" id="userid" required>
+
+        <label for="pwd"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="pwd" id="pwd"   minlength="8" required>
+    
+          <button id="Login" type="button" class="registerbtn"
+            onclick="LoginUser()">Login</button>
+      </div>
+    
+      <div class="container signin">
+        <p>Don't you have an account? <a href="/register">Create an account</a>.</p>
+      </div>
+    </form>
+  </body>
+
+</html>

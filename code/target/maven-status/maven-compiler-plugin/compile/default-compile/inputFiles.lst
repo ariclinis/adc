@@ -1,0 +1,9 @@
+/home/cuidado/eclipse-workspace/adc2023/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/ComputationResource.java
+/home/cuidado/eclipse-workspace/adc2023/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/AuthToken.java
+/home/cuidado/eclipse-workspace/adc2023/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/LoginData.java
+/home/cuidado/eclipse-workspace/adc2023/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/PasswordUpdate.java
+/home/cuidado/eclipse-workspace/adc2023/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/UserData.java
+/home/cuidado/eclipse-workspace/adc2023/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/AddressData.java
+/home/cuidado/eclipse-workspace/adc2023/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/SessionData.java
+/home/cuidado/eclipse-workspace/adc2023/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/LoginResource.java
+/home/cuidado/eclipse-workspace/adc2023/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/UserResource.java
